@@ -14,6 +14,9 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=Fredoka:wght@300..700&family=Roboto+Slab:wght@100..900&family=Solway:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+      
+        <!--aos animation -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- navbar -->
@@ -48,7 +51,7 @@
         <button class="heroButton">Shop Now</button>
        </div>
        <!-- image -->
-        <div class="heroImage">
+        <div data-aos="flip-right" class="heroImage">
           <img id="furnitureImage" src="./images/fur1.png" alt="No image">
         </div>
      </section>
@@ -58,21 +61,21 @@
          <h2 class="productHead">Out Products</h2>
          <!-- product container -->
           <div class="productContainer">
-            <div class="card">
+            <div data-aos="flip-right" class="card">
               <img class="cardImg" src="./images/card1.jpg" alt="No image">
               <h3 class="productName">Bed</h3>
               <p class="price">$120</p>
               <button class="productButton">Buy Now</button>
             </div>
             <!-- card2 -->
-             <div class="card">
+             <div data-aos="flip-right" class="card">
               <img class="cardImg" src="./images/card2.jpg" alt="No image">
               <h3 class="productName">Sofa</h3>
               <p class="price">$220</p>
               <button class="productButton">Buy Now</button>
             </div>
             <!-- card3 -->
-             <div class="card">
+             <div data-aos="flip-right" class="card">
               <img class="cardImg" src="./images/card3.jpg" alt="No image">
               <h3 class="productName">Walldrobe</h3>
               <p class="price">$150</p>
@@ -119,4 +122,9 @@
         <p> &copy; Designed by Luminar Technolab, All Rights Reserved 2026</p>
     </footer> 
 </body>
+<!-- aos script -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+  AOS.init();
+</script>
 </html>
