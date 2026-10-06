@@ -131,3 +131,7 @@
     - git init : Create new repository
     - git status : show current changes of a repository
     - git add . : used to add all changes to git. (Track the files)
+    - git commit -m "message" : save changes
+    - git push : upload changes
+    - git pull : download changes
+    - git clone <url> : copy a repository
